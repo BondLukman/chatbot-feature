@@ -246,28 +246,11 @@ body {
 /* Media query for Android phones (common width: 360px - 480px) */
 @media (max-width: 480px) {
   .chatbot-popup {
-    width: 100vw;
+    width: 90vw;
     min-width: 0;
     max-width: 100vw;
     height: 100vh;
     border-radius: 0;
     box-shadow: none;
-  }
-
-  .chat-header,
-  .chat-body,
-  .chat-footer {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .chat-body {
-    height: calc(100vh - 160px); /* Adjust based on header/footer height */
-    margin-bottom: 70px;
-    padding: 15px 10px;
-  }
-
-  .chat-footer {
-    padding: 10px 10px 15px;
   }
 }
