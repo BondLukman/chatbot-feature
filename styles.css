@@ -242,15 +242,3 @@ body {
 .chat-form .chat-controls button:hover {
   background: #f1f1ff;
 }
-
-/* Media query for Android phones (common width: 360px - 480px) */
-@media (max-width: 480px) {
-  .chatbot-popup {
-    width: 90vw;
-    min-width: 0;
-    max-width: 100vw;
-    height: 100vh;
-    border-radius: 0;
-    box-shadow: none;
-  }
-}
